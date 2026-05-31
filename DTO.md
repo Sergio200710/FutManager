@@ -153,10 +153,4 @@ MySQL -> Entity -> Mapper -> DTO -> Controller -> Frontend
 Frontend -> DTO -> Controller -> Service -> Entity -> Repository -> MySQL
 ```
 
-## Ventaja para explicar en clase
 
-La idea principal es:
-
-> La entidad representa la tabla de la base de datos. El DTO representa los datos que quiero enviar o recibir en la API.
-
-Es una mejora sencilla y fácil de justificar.
