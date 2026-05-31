@@ -1,0 +1,13 @@
+package com.futmanager.demofut.repository;
+
+import com.futmanager.demofut.entity.PlantillaCarta;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.Optional;
+
+@Repository
+public interface PlantillaCartaRepository extends JpaRepository<PlantillaCarta, Long> {
+
+    Optional<PlantillaCarta> findByPlantillaIdAndCartaId(Long plantillaId, Long cartaId);
+}
